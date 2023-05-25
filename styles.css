@@ -1,0 +1,64 @@
+/* Reset default margins and paddings */
+body, header, nav, ul, li {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  /* Set white background for the whole page */
+  body {
+    background-color: white;
+  }
+  
+  /* Center align the header content */
+  
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: rgb(16, 15, 15);
+  }
+  
+  /* Make the navigation bar horizontal */
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style the navigation bar items */
+  li {
+    margin: 0 10px;
+  }
+  
+  /* Style the navigation bar links */
+  a {
+    color: rgb(247, 243, 243);
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+    font-size: 21px;
+  }
+  p{
+    color: aliceblue;
+    text-align: left;
+  }
+  
+  .bar1 p {
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+
+.bar1 p:last-child {
+  position: absolute;
+  right: 0;
+}
+
+
+
+.search-bar {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
